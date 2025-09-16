@@ -3,7 +3,7 @@ from aiogram.fsm.storage.memory import MemoryStorage
 
 
 #токен бота
-TOKEN = '6696266858:AAEd8KUTKjXvUSHJ7WjeZAwdUOG01FidFsM'
+TOKEN = 'None'
 bot = Bot(token=TOKEN)
 
 #memory storage
@@ -23,4 +23,5 @@ user_dict = {} #всі дані користувача
 add_chatReew = set()
 
 chat_reew = {} #chat_with_partner
+
 
